@@ -1,0 +1,10 @@
+cl /c mathlib.cpp
+lib mathlib.obj /OUT:mathlib.lib
+cl /c main.cpp
+
+cd /d C:\Users\Dmitriy\Desktop\ОАП2\Лаб5\Примеры\1\1
+
+
+
+cl /EHsc main.cpp /link math_operations.dll
+cl /LD math_operation.cpp /Fe:math_operations.dll
