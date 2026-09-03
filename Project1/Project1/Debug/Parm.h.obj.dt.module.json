@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\Parm.obj",
+            "outputs": [
+                "Debug\\Parm.h.obj.dt.module.json",
+                "Debug\\Parm.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

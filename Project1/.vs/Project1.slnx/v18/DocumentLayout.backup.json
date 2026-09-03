@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D568F95-E980-46BE-8854-0147BCEA198E}|Project1\\Project1.vcxproj|C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\In.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D568F95-E980-46BE-8854-0147BCEA198E}|Project1\\Project1.vcxproj|solutionrelative:Project1\\In.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D568F95-E980-46BE-8854-0147BCEA198E}|Project1\\Project1.vcxproj|C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\SE_Lab14.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D568F95-E980-46BE-8854-0147BCEA198E}|Project1\\Project1.vcxproj|solutionrelative:Project1\\SE_Lab14.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D568F95-E980-46BE-8854-0147BCEA198E}|Project1\\Project1.vcxproj|C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\Error.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D568F95-E980-46BE-8854-0147BCEA198E}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Error.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D568F95-E980-46BE-8854-0147BCEA198E}|Project1\\Project1.vcxproj|C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\Log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D568F95-E980-46BE-8854-0147BCEA198E}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Log.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D568F95-E980-46BE-8854-0147BCEA198E}|Project1\\Project1.vcxproj|C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\Parm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D568F95-E980-46BE-8854-0147BCEA198E}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Parm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D568F95-E980-46BE-8854-0147BCEA198E}|Project1\\Project1.vcxproj|C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\Error.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D568F95-E980-46BE-8854-0147BCEA198E}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Error.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D568F95-E980-46BE-8854-0147BCEA198E}|Project1\\Project1.vcxproj|C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\In.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D568F95-E980-46BE-8854-0147BCEA198E}|Project1\\Project1.vcxproj|solutionrelative:Project1\\In.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D568F95-E980-46BE-8854-0147BCEA198E}|Project1\\Project1.vcxproj|C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\Log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D568F95-E980-46BE-8854-0147BCEA198E}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D568F95-E980-46BE-8854-0147BCEA198E}|Project1\\Project1.vcxproj|C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\Parm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D568F95-E980-46BE-8854-0147BCEA198E}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Parm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SE_Lab14.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\SE_Lab14.cpp",
+              "RelativeDocumentMoniker": "Project1\\SE_Lab14.cpp",
+              "ToolTip": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\SE_Lab14.cpp",
+              "RelativeToolTip": "Project1\\SE_Lab14.cpp",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-30T11:29:11.67Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "In.h",
+              "DocumentMoniker": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\In.h",
+              "RelativeDocumentMoniker": "Project1\\In.h",
+              "ToolTip": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\In.h",
+              "RelativeToolTip": "Project1\\In.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwCIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-08-30T11:38:07.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Log.h",
+              "DocumentMoniker": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\Log.h",
+              "RelativeDocumentMoniker": "Project1\\Log.h",
+              "ToolTip": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\Log.h",
+              "RelativeToolTip": "Project1\\Log.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-08-30T11:58:42.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Parm.h",
+              "DocumentMoniker": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\Parm.h",
+              "RelativeDocumentMoniker": "Project1\\Parm.h",
+              "ToolTip": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\Parm.h",
+              "RelativeToolTip": "Project1\\Parm.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-08-30T11:37:21.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Error.h",
+              "DocumentMoniker": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\Error.h",
+              "RelativeDocumentMoniker": "Project1\\Error.h",
+              "ToolTip": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\Error.h",
+              "RelativeToolTip": "Project1\\Error.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-08-30T11:34:30.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Parm.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\Parm.cpp",
+              "RelativeDocumentMoniker": "Project1\\Parm.cpp",
+              "ToolTip": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\Parm.cpp",
+              "RelativeToolTip": "Project1\\Parm.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-30T11:47:04.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Log.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\Log.cpp",
+              "RelativeDocumentMoniker": "Project1\\Log.cpp",
+              "ToolTip": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\Log.cpp",
+              "RelativeToolTip": "Project1\\Log.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-30T11:58:47.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "In.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\In.cpp",
+              "RelativeDocumentMoniker": "Project1\\In.cpp",
+              "ToolTip": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\In.cpp",
+              "RelativeToolTip": "Project1\\In.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-30T11:49:04.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\Error.cpp",
+              "RelativeDocumentMoniker": "Project1\\Error.cpp",
+              "ToolTip": "C:\\Users\\\u041E\u0431\u0435\u0437\u044C\u044F\u043D\u0430\\source\\repos\\Project1\\Project1\\Error.cpp",
+              "RelativeToolTip": "Project1\\Error.cpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-08-30T11:34:53.227Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
