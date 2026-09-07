@@ -1,5 +1,5 @@
 #pragma once
-#include "Error.h"  
+#include "Error.h"
 #include "Parm.h"
 #include "In.h"
 #include <fstream>
@@ -9,7 +9,7 @@ namespace Log
     struct LOG
     {
         std::ofstream stream;
-        bool isOpen;
+        bool isOpen=false;
     };
 
     LOG getlog(wchar_t* logfile);

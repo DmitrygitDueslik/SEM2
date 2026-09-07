@@ -1,6 +1,6 @@
 #include "In.h"
 #include "Error.h"
-#include <fstream>
+#include <cstdio>
 
 namespace In
 {
@@ -11,28 +11,24 @@ namespace In
         in.lines = 0;
         in.ignor = 0;
 
+        // Инициализируем таблицу проверки
         int codeTable[] = IN_CODE_TABLE;
         for (int i = 0; i < 256; i++)
         {
             in.code[i] = codeTable[i];
         }
 
-        // Конвертируем wchar_t* в char* для ifstream
-        char filename[1024];
-        size_t converted = 0;
-        wcstombs_s(&converted, filename, 1024, infile, _TRUNCATE);
+        // Открываем файл
+        FILE* pFile = nullptr;
+        errno_t err = _wfopen_s(&pFile, infile, L"rb");
 
-        // Открываем файл в бинарном режиме
-        std::ifstream file(filename, std::ios::binary);
-        if (!file.is_open())
+        if (err != 0 || pFile == nullptr)
         {
-            throw ERROR_THROW(110);
+            throw ERROR_THROW(110);  // Ошибка 110 - не удалось открыть файл
         }
 
-        // Выделяем память для текста
+        // Выделяем память
         in.text = new unsigned char[IN_MAX_LEN_TEXT];
-
-        // Инициализируем нулями
         for (int i = 0; i < IN_MAX_LEN_TEXT; i++) {
             in.text[i] = 0;
         }
@@ -41,53 +37,48 @@ namespace In
         int line = 0;
         int col = 0;
 
-        char ch;
-        while (file.get(ch))
+        int ch;
+        while ((ch = fgetc(pFile)) != EOF)
         {
-            unsigned char uch = (unsigned char)ch;
+            unsigned char uch = static_cast<unsigned char>(ch);
             int code = in.code[uch];
 
             if (code == IN::F)
             {
-                // Запрещённый символ - ошибка 111
                 delete[] in.text;
-                file.close();
+                fclose(pFile);
                 throw ERROR_THROW_IN(111, line, col);
             }
             else if (code == IN::I)
             {
-                // Игнорируемый символ - не пишем в текст, просто считаем
                 in.ignor++;
             }
             else if (code == IN::T)
             {
-                // Разрешённый символ - вводим как есть
                 in.text[pos] = uch;
                 pos++;
                 in.size++;
+                if (uch == IN_CODE_ENDL)
+                {
+                    in.lines++;
+                    col = 0;
+                }
+                else
+                {
+                    col++;
+                }
             }
             else
             {
-                // Замена символа (code от 0 до 255)
-                in.text[pos] = (unsigned char)code;
+                // Замена символа
+                in.text[pos] = static_cast<unsigned char>(code);
                 pos++;
                 in.size++;
-            }
-
-            
-            if (uch == IN_CODE_ENDL)
-            {
-                in.lines++;
-                line++;
-                col = 0;
-            }
-            else
-            {
                 col++;
             }
         }
 
-        file.close();
+        fclose(pFile);
         return in;
     }
 }

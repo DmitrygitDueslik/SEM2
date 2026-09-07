@@ -6,11 +6,11 @@
 
 namespace Parm
 {
-    PARM getparm(int argc, char* argv[])
+    PARM getparm(int argc, wchar_t* argv[])
     {
         PARM parm;
 
-        // Инициализируем пустыми строками
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         parm.in[0] = L'\0';
         parm.out[0] = L'\0';
         parm.log[0] = L'\0';
@@ -19,49 +19,46 @@ namespace Parm
 
         for (int i = 1; i < argc; i++)
         {
-            // Конвертируем argv[i] из char* в wchar_t
-            wchar_t arg[PARM_MAX_SIZE];
-            size_t converted = 0;
-            mbstowcs_s(&converted, arg, PARM_MAX_SIZE, argv[i], _TRUNCATE);
+            wchar_t* arg = argv[i];
 
-            // Проверяем длину
+            // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
             if (wcslen(arg) >= PARM_MAX_SIZE)
             {
                 throw ERROR_THROW(104);
             }
 
-            // Проверяем ключ -in:
+            // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ -in:
             if (wcsstr(arg, PARM_IN) == arg)
             {
                 foundIn = true;
                 wcscpy_s(parm.in, arg + wcslen(PARM_IN));
             }
-            // Проверяем ключ -out:
+            // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ -out:
             else if (wcsstr(arg, PARM_OUT) == arg)
             {
                 wcscpy_s(parm.out, arg + wcslen(PARM_OUT));
             }
-            // Проверяем ключ -log:
+            // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ -log:
             else if (wcsstr(arg, PARM_LOG) == arg)
             {
                 wcscpy_s(parm.log, arg + wcslen(PARM_LOG));
             }
         }
 
-        // Если -in не задан - ошибка 100
+        // пїЅпїЅпїЅпїЅ -in пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ - пїЅпїЅпїЅпїЅпїЅпїЅ 100
         if (!foundIn)
         {
             throw ERROR_THROW(100);
         }
 
-        // Формируем значения по умолчанию для -out
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ -out
         if (wcslen(parm.out) == 0)
         {
             wcscpy_s(parm.out, parm.in);
             wcsncat_s(parm.out, PARM_OUT_DEFAULT_EXT, _TRUNCATE);
         }
 
-        // Формируем значения по умолчанию для -log
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ -log
         if (wcslen(parm.log) == 0)
         {
             wcscpy_s(parm.log, parm.in);
